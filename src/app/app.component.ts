@@ -53,7 +53,7 @@ export class AppComponent {
     // let icon = new H.map.Icon(svgMarkup)
     // let marker = new H.map.Marker(position, { icon: svgMarkup });
 
-    let marker = new H.map.Marker(position, { icon: svgMarkup });
+    let marker = new H.map.Marker(position);
     this.map.addObject(marker);
     this.map.setCenter(position);
   }
