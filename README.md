@@ -1,7 +1,24 @@
 # HereWeGo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+## Getting Started
+## 1.Import Javascript Modules
+```
+  <link rel="stylesheet"
+        type="text/css"
+        href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
 
+  <script type="text/javascript"
+          src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+
+  <script type="text/javascript"
+          src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+
+  <script type="text/javascript"
+          src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+
+  <script type="text/javascript"
+          src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+```
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
