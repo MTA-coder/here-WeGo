@@ -1,6 +1,6 @@
 <ion-content>
   <div style="display: flex;align-items: center;">
-    <ion-searchbar #query></ion-searchbar>
+    <ion-searchbar #query (ionInput)="trigger($event)"></ion-searchbar>
     <ion-button (click)="search(query)">Go!</ion-button>
   </div>
   <ion-row>
@@ -29,6 +29,4 @@
       </div>
     </ion-col>
   </ion-row>
-
-
 </ion-content>

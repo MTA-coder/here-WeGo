@@ -1,44 +1,28 @@
 # HereWeGo
 
 ## Getting Started
-## 1.Import Javascript Modules
+first you must import theses basic modules in your web page  script below:
+```
+  <script type="text/javascript"
+          src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+
+  <script type="text/javascript"
+          src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+```
+
+## Interactive Map (optional)
+if you want to add tools and UI to your map import module
 ```
   <link rel="stylesheet"
         type="text/css"
         href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
 
   <script type="text/javascript"
-          src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
-
-  <script type="text/javascript"
-          src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
-
-  <script type="text/javascript"
-          src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
-
-  <script type="text/javascript"
           src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
 ```
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Style Your Map (optional)
+if u want to make interactive map do the following(optional):
+```
+  <script type="text/javascript"
+          src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+```
